@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pakistan Number Tracker</title>
+  <meta name="description" content="Pakistan Number Tracker — Free mobile operator & number validator. No API required.">
+  <link rel="icon" href="/earth_logo.png">
+  <link rel="stylesheet" href="/assets/main.css">
+  <!-- Leaflet for map (only used for showing device location if allowed) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <img src="/earth_logo.png" class="logo" alt="Earth Logo">
+      <h1>Pakistan Number Tracker</h1>
+      <p class="tag">Free — No API keys required — Works in Pakistan</p>
+    </header>
+
+    <main class="card">
+      <label class="label">موبائل نمبر درج کریں (مثال: 03XXXXXXXXX)</label>
+      <div class="row">
+        <input id="numberInput" placeholder="03123456789" inputmode="numeric" maxlength="11">
+        <button id="lookupBtn">Lookup</button>
+        <button id="clearBtn" class="muted">Clear</button>
+      </div>
+
+      <div id="results" class="results hidden">
+        <div><strong>حیثیت:</strong> <span id="validity"></span></div>
+        <div><strong>آپریٹر:</strong> <span id="operator"></span></div>
+        <div><strong>سرکٹ / علاقہ (approx):</strong> <span id="circle"></span></div>
+        <div><strong>اضافی:</strong> <span id="notes"></span></div>
+      </div>
+
+      <hr>
+
+      <div class="controls">
+        <button id="locBtn">Show My Location on Map</button>
+        <small class="muted">Map uses browser geolocation (آپ اجازت دیں تو لوکیشن دکھے گی)</small>
+      </div>
+
+      <div id="map" class="map hidden"></div>
+      <p class="disclaimer muted">نوٹ: نمبر سے حقیقی 'live' موبائل مقام حاصل کرنے کے لیے telecom APIs یا قانونی اجازت درکار ہوتی ہے۔ یہ ٹول صرف نمبر کی ساخت اور عام prefixes کی بنیاد پر آپریٹر اور basic معلومات دیتا ہے۔</p>
+    </main>
+
+    <footer class="footer muted">Built for you — Pakistan Number Tracker</footer>
+  </div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="/assets/main.js"></script>
+</body>
+</html>
