@@ -1,18 +1,79 @@
 
-Pakistan Number Tracker — Simple Build
-====================================
+──────────────────────────────────────────────
+▐█▀▀ ▄▀█ █▄░█ ░░█ ▀█▀ █▀█ █▀▄   PAKISTAN NUMBER TRACKER
+▐█▄▄ █▀█ █░▀█ █▄█ ░█░ █▄█ █▄▀         BY: ALYAN
+──────────────────────────────────────────────
 
-Files:
- - index.html         -> Main page
- - earth_logo.png     -> Small earth logo used in header & favicon
- - assets/main.js     -> App logic: validation, operator detection, geolocation map
- - assets/main.css    -> Styling (dark theme, Urdu RTL)
+[INITIALIZING MODULES]
+█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 10%
+███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 25%
+██████▒▒▒▒▒▒▒▒▒▒▒▒ 48%
+█████████▒▒▒▒▒▒▒▒▒ 70%
+██████████████▒▒▒▒ 90%
+██████████████████ 100%
+✔ SYSTEM READY…
 
-How to use:
- - Extract the ZIP on your local machine or upload folder to Vercel / any static host.
- - Ensure index.html and earth_logo.png are at root; assets folder at root as well.
- - Open index.html in browser. To see map, click 'Show My Location on Map' and allow geolocation permission.
+--------------------------------------------------
+>> ABOUT THIS TOOL
+--------------------------------------------------
+This is a lightweight, fast, and fully offline  
+PAKISTAN NUMBER TRACKER (Version A).
 
-Notes:
- - Number validation: expects 11 digits starting with '03' (e.g., 03123456789).
- - Operator detection uses common prefixes (not exhaustive). This tool does NOT perform real-time tracking — for live location telecom APIs and legal permissions are required.
+✔ No API Required  
+✔ PTA Format Validation  
+✔ Operator Detection (Jazz, Zong, Ufone, Telenor, SCOM)  
+✔ Province / Region Guess  
+✔ Device Location Map (Browser GPS)  
+✔ Works 100% in Pakistan  
+✔ Mobile + Desktop Supported  
+
+--------------------------------------------------
+>> HOW TO USE
+--------------------------------------------------
+1. Enter any Pakistan mobile number (03XXXXXXXXX).
+2. Press the “Lookup” button.
+3. Tool will:
+   → Validate Number
+   → Detect Operator
+   → Detect Region
+   → Show Local Device Map (If GPS Allowed)
+4. Press “Clear” to reset input.
+
+--------------------------------------------------
+>> SUPPORTED OPERATORS
+--------------------------------------------------
+• Jazz / Warid  
+• Zong  
+• Ufone  
+• Telenor  
+• SCOM (GB)
+
+Prefix-based fast detection → 100% Offline.
+
+--------------------------------------------------
+>> FILE STRUCTURE
+--------------------------------------------------
+index.html      ← Main Page  
+style.css       ← Styling  
+script.js       ← Core Logic  
+assets/         ← Icons, Images, Maps  
+
+--------------------------------------------------
+>> FEATURES IN NEXT UPDATE (COMING SOON)
+--------------------------------------------------
+• Full Prefix Database Update  
+• City-level Region Mapping  
+• UI Animations (Hacker V2)  
+• Urdu + English Dual Language  
+• Advanced Tracking Simulation Mode  
+
+--------------------------------------------------
+>> DEVELOPED BY
+--------------------------------------------------
+   █▀█ █░░ █░█ ▄▀█ █▄█   
+   █▀▀ █▄▄ █▄█ █▀█ ░█░   
+   ALYAN | Cyber Developer PK  
+
+──────────────────────────────────────────────
+THANK YOU FOR USING PAKISTAN NUMBER TRACKER  
+──────────────────────────────────────────────
